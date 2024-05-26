@@ -1,0 +1,9 @@
+.image5Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 1130px;
+  object-fit: cover;
+  z-index: 1;
+}

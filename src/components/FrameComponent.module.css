@@ -1,0 +1,235 @@
+.cogIcon {
+  height: 64px;
+  width: 61px;
+  position: relative;
+}
+.cog,
+.cogWrapper {
+  display: flex;
+  box-sizing: border-box;
+}
+.cog {
+  height: 64px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-12xs);
+  z-index: 2;
+}
+.cogWrapper {
+  width: 174px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-16xl-3);
+}
+.starIcon {
+  width: 64px;
+  height: 62px;
+  position: relative;
+}
+.star {
+  position: absolute;
+  top: 192px;
+  left: 44.5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 3;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 154.98px;
+  left: 108.64px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 38.9px;
+  height: 15.5px;
+  transform: rotate(31.6deg);
+  transform-origin: 0 0;
+  z-index: 3;
+}
+.frameInner {
+  top: 270px;
+  left: 20.88px;
+  background-color: var(--color-gray-300);
+  width: 17.3px;
+  height: 9.3px;
+  transform: rotate(14.8deg);
+}
+.vectorParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.starParent {
+  height: 291.3px;
+  flex: 1;
+  position: relative;
+  min-width: 513px;
+  max-width: 100%;
+}
+.frameChild1,
+.rectangleDiv {
+  border-radius: 40.17px;
+  display: none;
+}
+.rectangleDiv {
+  height: 120.5px;
+  width: 329.4px;
+  position: relative;
+  box-shadow: 0 8px 0#ffd540;
+  background-color: var(--color-khaki);
+  max-width: 100%;
+}
+.frameChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: -7px 8px 19.8px #edb900 inset, 0 8px 0#edb900;
+  background-color: var(--color-gold-100);
+  width: 100%;
+  height: 100%;
+}
+.start {
+  position: absolute;
+  top: 12.1px;
+  left: 41.4px;
+  letter-spacing: 0.06em;
+  font-weight: 900;
+  -webkit-text-stroke: 2px #fff;
+  z-index: 3;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 9.6px;
+  left: 0;
+  border-radius: 40.17px;
+  width: 269.1px;
+  height: 44.2px;
+  z-index: 2;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 0;
+  left: 0.1px;
+  width: 38.4px;
+  height: 37.2px;
+  object-fit: contain;
+  z-index: 4;
+}
+.vectorGroup {
+  position: absolute;
+  top: 2.4px;
+  left: 17px;
+  width: 269.1px;
+  height: 53.8px;
+}
+.rectangleGroup {
+  height: 100.4px;
+  flex: 1;
+  position: relative;
+  box-shadow: -7px 8px 19.8px #edb900 inset, 0 8px 0#edb900;
+  border-radius: 40.17px;
+  background-color: var(--color-gold-100);
+  z-index: 1;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 8px 0#ffd540;
+  border-radius: 40.17px;
+  background-color: var(--color-khaki);
+  width: 329.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-3xs) var(--padding-mini-1);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.polygonIcon {
+  position: absolute;
+  top: 0;
+  left: 0.2px;
+  border-radius: 10.04px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 77.67px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gray-400);
+  width: 17.3px;
+  height: 9.3px;
+  transform: rotate(-38.5deg);
+  transform-origin: 0 0;
+  z-index: 6;
+}
+.polygonParent {
+  position: absolute;
+  top: 16.1px;
+  left: 285px;
+  width: 88px;
+  height: 87.8px;
+}
+.frameGroup {
+  height: 120.5px;
+  width: 373px;
+  position: relative;
+  max-width: 100%;
+  cursor: pointer;
+  z-index: 5;
+}
+.frameParent {
+  width: 1343px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-9xs-5);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-45xl-3);
+  color: var(--color-white);
+  font-family: var(--font-nunito);
+}
+@media screen and (max-width: 1050px) {
+  .start {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .starParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .start {
+    font-size: var(--font-size-20xl);
+  }
+}

@@ -1,0 +1,116 @@
+.customShape {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(149, 233, 246, 0.45),
+    rgba(186, 230, 26, 0.38)
+  );
+  z-index: 2;
+}
+.image5Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 1130px;
+  object-fit: cover;
+}
+.frameChild {
+  position: absolute;
+  top: 45px;
+  left: 43px;
+  width: 194px;
+  height: 194px;
+  cursor: pointer;
+  z-index: 3;
+}
+.frameInner,
+.frameItem,
+.vectorIcon {
+  position: absolute;
+  top: 40.7px;
+  left: 306px;
+  width: 755.4px;
+  height: 41.1px;
+  object-fit: contain;
+  z-index: 3;
+}
+.frameInner,
+.vectorIcon {
+  top: -34px;
+  left: 941px;
+  width: 173.3px;
+  height: 175.9px;
+  z-index: 4;
+}
+.vectorIcon {
+  top: 100px;
+  left: 339px;
+  width: 273.7px;
+  height: 215.8px;
+}
+.image5Parent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.ellipseDiv,
+.frameChild1,
+.frameChild2 {
+  height: 62px;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(#9fc514, #9fc514),
+    linear-gradient(#9fc514, #9fc514), #9fc514;
+  min-width: 322px;
+  max-width: 100%;
+}
+.activityScreen,
+.ellipseParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-30xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.activityScreen {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 142px var(--padding-23xl) 183px 82px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .activityScreen {
+    padding-left: 41px;
+    padding-right: 21px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .ellipseParent {
+    gap: 24px;
+  }
+}
